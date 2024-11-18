@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "discord-api-types": "^0.37.105",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "type": "module",
+  "scripts": {
+    "register-commands": "npx tsx --env-file=.env .\\slashcommands\\utils\\commandRegister.ts",
+    "start": "npx tsx --env-file=.env index.ts"
+  }
+}
